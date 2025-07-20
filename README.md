@@ -60,8 +60,8 @@ App will run at: [http://localhost:3000](http://localhost:3000)
 ## Folder Structure
 
 ```
-/components      → Reusable UI components
-/pages           → App routes for each tool
-/public          → Static assets
-/styles          → Tailwind & global CSS
+app/                  → App Router pages (e.g., /tools/timestamps)
+components/           → Reusable UI components (e.g., Input, Button)
+styles/               → Global & Tailwind styles
+tailwind.config.ts    → Tailwind configuration
 ```
